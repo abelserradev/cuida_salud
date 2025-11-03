@@ -84,7 +84,7 @@ export default function ContactoPage() {
 
              
                   <Link
-                    href="https://github.com/abelserradev"
+                    href="https://github.com/abelserradev/cuida_salud.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-3 px-8 py-4 bg-text-primary text-white rounded-xl font-bold text-lg hover:bg-text-primary/90 transition-all shadow-lg hover:shadow-2xl hover:scale-105"
