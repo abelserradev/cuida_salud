@@ -11,7 +11,7 @@ const adminRoutes = ['/admin'];
 const authRoutes = ['/login', '/registro'];
 
 // Rutas públicas
-const publicRoutes = ['/', '/tarifas', '/que-incluye', '/contacto'];
+const publicRoutes = ['/', '/tarifas', '/que-incluye', '/agradecimiento'];
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;

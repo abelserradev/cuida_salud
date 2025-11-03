@@ -8,7 +8,7 @@ export default function Footer() {
     { name: 'Inicio', href: '/' },
     { name: 'Tarifas', href: '/tarifas' },
     { name: 'Qué Incluye', href: '/que-incluye' },
-    { name: 'Contacto', href: '/contacto' },
+    { name: 'Agradecimiento', href: '/agradecimiento' },
   ];
 
   return (

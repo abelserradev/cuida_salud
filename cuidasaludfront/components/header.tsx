@@ -146,7 +146,7 @@ const StyledNavRight = styled.div`
     stroke-dasharray: 0 2 8 73.3 8 10.7;
   }
 
-  /* Contacto - segundo botón */
+  /* Agradecimiento - segundo botón */
   .nav-btn:nth-child(2):hover ~ svg .rect {
     stroke-dashoffset: 0;
     stroke-dasharray: 0 24.5 8.5 27.5 8.5 55.5;
@@ -333,8 +333,8 @@ export default function Header() {
                   <Link href="/que-incluye" className="nav-btn">
                     Qué incluye
                   </Link>
-                  <Link href="/contacto" className="nav-btn">
-                    Contacto
+                  <Link href="/agradecimiento" className="nav-btn">
+                    Agradecimiento
                   </Link>
                   <svg 
                     className="outline" 
@@ -474,11 +474,11 @@ export default function Header() {
                 Qué incluye
               </Link>
               <Link 
-                href="/contacto" 
+                href="/agradecimiento" 
                 className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contacto
+                Agradecimiento
               </Link>
 
               {/* Usuario Autenticado o Botón Login - Móvil */}
